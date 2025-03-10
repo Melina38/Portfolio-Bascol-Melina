@@ -18,8 +18,8 @@ nav{
         list-style: none;
         display: flex;
         justify-content: space-between;
-        gap: 120px;
-        padding: 18px 128px;
+        gap: 60px;
+        padding: 18px 0 18px 128px;
         li{
             font-family: 'Anton', sans-serif;
             display: flex;
