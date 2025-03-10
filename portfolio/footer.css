@@ -1,0 +1,117 @@
+footer{
+    border-top: 3px solid #ECA5A0;
+    padding-top: 52px;
+}
+.footer-section{
+    display: flex;
+    align-items: center;
+    gap: 131px;
+    
+    a{
+        img{
+            width: 376px;
+            height: auto;
+        }
+    }
+    div{
+        display: flex;
+        gap: 131px;
+        .bouton-footer{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 50px;
+            
+            a{
+                
+                text-decoration: none;
+                color: white;
+                font-size: 32px;
+                font-family: 'Anton', sans-serif;
+                padding: 20px 58px;
+                background-color: #801626;
+                border-radius: 100px;
+                transition: all 0.3s;
+                justify-content: center;
+                text-align: center;
+                
+                
+            }
+            a:hover{
+                background-color: #ECA5A0;
+                color: #801626;
+            }
+        }
+        ul{
+            list-style: none;
+            
+            
+            gap: 120px;
+            padding: 18px 128px;
+            li{
+                font-family: 'Anton', sans-serif;
+                display: flex;
+                margin-bottom: 26px;
+                
+                a{
+                    text-decoration: none;
+                    color: #801626;
+                    font-size: 1.5rem;
+                }
+            }
+            li:last-child{
+                margin-bottom: 0;
+            }
+        }
+    }
+    
+}
+.footer-section:last-child{
+    gap: 0;
+}
+.credit-div{
+    display: flex; /* Utilise Flexbox pour aligner les éléments */
+    justify-content: flex-end; /* Aligne les éléments à droite */
+    padding-bottom: 20px;
+    p{
+        color: #801626;
+        
+    }
+}
+@media only screen and (max-width: 420px) {
+    .footer-section{
+        flex-direction: column;
+        gap: 50px;
+        a{
+            img{
+                width: 192px;
+                height: auto;
+            }
+        }
+        div{
+            gap: 50px;
+            ul{
+                padding: 15px 0;
+                li{
+                    a{
+                        font-size: 1rem;
+                    }
+                }
+            }
+            .bouton-footer{
+                padding: 0;
+                a{
+                    padding: 10px 42px;
+                    font-size: 32px;
+                }
+            }
+        }
+    }
+    .credit-div{
+        justify-content: center;
+        margin-top: 30px;
+    }
+    footer{
+        padding-top: 30px;
+    }
+}
