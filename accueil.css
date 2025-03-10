@@ -132,17 +132,17 @@
     }
 }
 .card-1 {
-    background-image: url('/img/multimedia.jpg');
+    background-image: url('./img/multimedia.jpg');
 }
 
 .card-2 {
-    background-image: url('/img/semaine_web.jpg');
+    background-image: url('./img/semaine_web.jpg');
 }
 .card-3 {
-    background-image: url('/img/hazards.jpg');
+    background-image: url('./img/hazards.jpg');
 }
 .card-4 {
-    background-image: url('/img/capy.jpg');
+    background-image: url('./img/capy.jpg');
 }
 .card::before {
     content: "";
