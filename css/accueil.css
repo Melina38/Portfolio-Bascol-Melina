@@ -1,0 +1,304 @@
+.hero-section{
+    padding-top: 108px;
+    padding-bottom: 108px;
+    justify-content: center;
+    
+    .hero-image{
+        justify-content: center;
+        padding-top: 84px;
+        display: flex;
+    }
+}
+.bouton-cv{
+    background-color: #801626;
+    color: white;
+    padding: 19px 110.5px;
+    border-radius: 100px;
+    font-size: 3rem;
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    
+}
+.bouton-cv:hover{
+    background-color: #ECA5A0;
+    color: #801626;
+}
+.hero-div{
+    display: flex;
+    align-items: center;
+    gap: 139px;
+    flex-wrap: wrap;
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        
+    }
+}
+.bouton-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+@media only screen and (max-width: 420px) {
+    .hero-section{
+        
+        padding-top: 42px;
+        padding-bottom: 42px;
+        .hero-image{
+            padding-top: 50px;
+            a{
+                img{
+                    width: 52px;
+                    height: auto;
+                }
+            }
+            
+        }
+    }
+    .hero-div{
+        gap: 30px;
+        justify-content: center; 
+    }
+    .bouton-cv{
+        padding: 15px 42px;
+        text-align: center;
+        font-size: 32px;
+    }
+    .bouton-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+    }
+}
+
+.projets-section{
+    background-color: #ECA5A0;
+    padding-bottom: 108px;
+}
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 41px;
+    justify-content: center;
+    padding: 0 144px;
+}
+
+.card {
+    flex: 1 1 calc(33.333% - 27.33px); /* Chaque carte prend environ un tiers de la largeur disponible, moins l'espace entre les cartes */
+    max-width: 350px; 
+    height: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #f8f9fa;
+    box-shadow: 2px 2px 10px rgba(128, 22, 38, 0.1);
+    font-size: 18px;
+    background-size: cover; /* Assure que l'image couvre toute la carte */
+    
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    position: relative; /* Nécessaire pour positionner le texte */
+    overflow: hidden; /* Cache le contenu débordant */
+    transition: transform 0.3s, background-size 0.3s; /* Ajout de transitions */
+
+    h4{
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        text-align: left;
+        transform: translate(-50%, -50%);
+        color: white;
+        opacity: 0; /* Texte caché par défaut */
+        transition: opacity 0.3s; /* Transition pour l'opacité */
+    }
+    p{
+        position: absolute;
+        top: 80%;
+        left: 40%;
+        text-align: left;
+        transform: translate(-50%, -50%);
+        color: white;
+        opacity: 0; /* Texte caché par défaut */
+        transition: opacity 0.3s; /* Transition pour l'opacité */
+    }
+}
+.card-1 {
+    background-image: url('../img/multimedia.jpg');
+}
+
+.card-2 {
+    background-image: url('../img/semaine_web.jpg');
+    background-position: center;
+}
+.card-3 {
+    background-image: url('../img/hazards.jpg');
+    
+}
+.card-4 {
+    background-image: url('../img/capy.jpg');
+    background-position: center;
+}
+.card-5 {
+    background-image: url('../img/pc_enCours.png');
+    background-position: center;
+    background-size: 90%;
+}
+.card-6 {
+    background-image: url('../img/pc_enCours.png');
+    background-position: center;
+    background-size: 90%;
+}
+.card-7 {
+    background-image: url('../img/pc_enCours.png');
+    background-position: center;
+    background-size: 90%;
+}
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 22, 38, 0.9); /* Fond gris transparent */
+    opacity: 0;
+    transition: opacity 0.3s; /* Transition pour l'opacité */
+}
+.card:hover {
+    transform: translateY(-10px);
+    
+    h4{
+        opacity: 1;
+    }
+    p{
+        opacity: 1;
+    }
+}
+.card:hover::before {
+    opacity: 1; /* Affiche le fond gris transparent au survol */
+}
+.hidden {
+    display: none;
+}
+
+.buttons-filtre {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.filter-btn {
+    
+    padding: 15px 30px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid #801626;
+    color: #801626;
+    border-radius: 100px;
+    transition: 0.3s;
+}
+
+.filter-btn:hover {
+    background-color: #801626;
+    color: white;
+}
+
+.filter-btn.active {
+    background-color: #801626;
+    color: white;
+    
+}
+
+@media only screen and (max-width: 420px) {
+    .cards {
+        padding: 0 10px;
+    }
+
+    .card {
+        flex: 1 1 100%; /* Chaque carte prend toute la largeur disponible */
+        max-width: 312px; /* Définit la largeur maximale de chaque carte à 312px */
+        height: 350px; /* Fixe la hauteur des cartes à 350px */
+        margin: 0 auto; /* Centre les cartes horizontalement */
+        
+    }
+    .card:hover {
+        transform: translateY(-10px);
+    }
+    .filter-btn {
+    
+        padding: 10px 25px;}
+}
+
+    
+
+
+/* Conteneur du texte défilant */
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    
+    padding: 76.5px 0;
+}
+
+/* Animation de défilement */
+.marquee {
+    display: inline-block;
+    font-size: 96px;
+    -webkit-text-stroke: 0.1px #801626;
+    
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    animation: marquee 15s linear infinite;
+    
+}
+/* Dupliquer le texte pour un effet infini */
+.marquee span {
+    display: inline-block;
+    padding: 0 50px; /* Espace entre les répétitions */
+  
+}
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+.moi{
+    color: #801626;
+    text-shadow: none;
+    text-align: left;
+}
+.contact-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 90px;
+    gap: 83px;
+}
+@media only screen and (max-width: 420px) {
+.contact-section{
+    gap: 30px;
+    padding-top: 30px;
+    padding-bottom: 85px;
+}
+
+}
