@@ -143,6 +143,12 @@
 .card-4 {
     background-image: url('./img/capy.jpg');
 }
+.card-5 {
+    background-image: url('./img/visual.png');
+}
+.card-6 {
+    background-image: url('./img/jobPulse.jpg');
+}
 .card::before {
     content: "";
     position: absolute;
