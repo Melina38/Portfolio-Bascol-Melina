@@ -95,8 +95,8 @@
 
 .card {
     flex: 1 1 calc(33.333% - 27.33px); /* Chaque carte prend environ un tiers de la largeur disponible, moins l'espace entre les cartes */
-    max-width: 350px; 
-    height: 350px;
+    max-width: 390px; 
+    height: 390px;
     padding: 20px;
     border-radius: 10px;
     background: #f8f9fa;
@@ -147,14 +147,14 @@
     background-position: center;
 }
 .card-5 {
-    background-image: url('../img/pc_enCours.png');
+    background-image: url('../img/jobPulse.jpg');
     background-position: center;
-    background-size: 90%;
+    
 }
 .card-6 {
-    background-image: url('../img/pc_enCours.png');
+    background-image: url('../img/visual.png');
     background-position: center;
-    background-size: 90%;
+    
 }
 .card-7 {
     background-image: url('../img/pc_enCours.png');
