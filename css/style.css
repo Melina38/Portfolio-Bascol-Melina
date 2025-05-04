@@ -52,6 +52,8 @@ h4{
     font-size: 24px;
     font-family: 'reem kufi', sans-serif;
     color: #801626;
+    word-spacing: 3px;
+
     strong{
         font-weight: 1000;
     }
@@ -67,6 +69,8 @@ p{
     font-size: 20px;
     font-family: 'reem kufi', sans-serif;
     color: #801626;
+    line-height: normal;
+    word-spacing: 2px;
     
     strong{
         font-weight: 1000;
