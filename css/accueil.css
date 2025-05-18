@@ -27,8 +27,10 @@
 .hero-div{
     display: flex;
     align-items: center;
-    gap: 139px;
     flex-wrap: wrap;
+    h1{
+        width: 50%;
+    }
     div{
         display: flex;
         flex-direction: column;
@@ -43,6 +45,11 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    width: 40%;
+}
+
+.actuellement-section{
+    padding-bottom: 108px;
 }
 @media only screen and (max-width: 420px) {
     .hero-section{
@@ -62,7 +69,8 @@
     }
     .hero-div{
         gap: 30px;
-        justify-content: center; 
+        
+        
     }
     .bouton-cv{
         padding: 15px 42px;
@@ -76,6 +84,8 @@
         align-items: center;
         text-align: center;
         margin: 0;
+        width: 100%;
+        
     }
 }
 
@@ -157,6 +167,11 @@
     
 }
 .card-7 {
+    background-image: url('../img/onimojySansFond.png');
+    background-position: center;
+    background-size: 90%;
+}
+.card-8 {
     background-image: url('../img/pc_enCours.png');
     background-position: center;
     background-size: 90%;
