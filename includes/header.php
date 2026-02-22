@@ -11,11 +11,12 @@
         <link rel="stylesheet" href="css/footer.css">
         <link rel="stylesheet" href="css/projet.css">
         <link rel="stylesheet" href="css/accueil.css">
+        <script src="script.js"></script>
     </head>
 <body>
     <header class="header container">
         <nav>
-            <a href="index.html"><img src="./img/logo.png" alt="Mélina écrit en rose"></a>
+            <a href="index.php"><img src="./img/logo.png" alt="Mélina écrit en rose"></a>
             
             <ul>
                 <li><a href="#projet" class="scroll-link">Mes Projets</a></li>
@@ -27,7 +28,7 @@
     </header>
     <header class="header-mobile container">
         <nav>
-            <a href="index.html"><img src="./img/logo.png" alt="Mélina écrit en rose"></a>
+            <a href="index.php"><img src="./img/logo.png" alt="Mélina écrit en rose"></a>
             
             <ul>
                 <li><a href="#projet" class="scroll-link">Mes Projets</a></li>

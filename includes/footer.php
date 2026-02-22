@@ -1,6 +1,6 @@
  <footer>
     <section class="footer-section container">
-        <a href="index.html" ><img src="./img/logo.png" alt="Logo Mélina écrit en rose"></a>
+        <a href="index.php" ><img src="./img/logo.png" alt="Logo Mélina écrit en rose"></a>
         <div>
             <ul>
                 <li><a href="#projet" class="scroll-link">Mes Projets</a></li>

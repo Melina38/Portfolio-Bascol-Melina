@@ -1,4 +1,4 @@
-<?php include 'header.php'; ?>
+<?php include 'includes/header.php'; ?>
 
 
 <section class="hero-section container" id="#cv">
@@ -33,4 +33,4 @@
 
 <?php include 'components/qui-suis-je-section.php'; ?>
 <?php include 'components/contact-section.php'; ?>
-<?php include 'footer.php'; ?>
+<?php include 'includes/footer.php'; ?>
