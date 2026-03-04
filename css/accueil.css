@@ -51,7 +51,7 @@
 .actuellement-section{
     padding-bottom: 108px;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 768px) {
     .hero-section{
         
         padding-top: 42px;
@@ -237,7 +237,7 @@
     
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 768px) {
     .cards {
         padding: 0 10px;
     }
@@ -309,7 +309,7 @@
     padding-bottom: 90px;
     gap: 83px;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 768px) {
 .contact-section{
     gap: 30px;
     padding-top: 30px;

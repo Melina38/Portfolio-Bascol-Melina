@@ -1,128 +1,32 @@
-/*.carousel {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  margin: auto;
-}
-
-.carousel-track-container {
+/* ===========================
+   CONTAINER DU CAROUSEL
+=========================== */
+.carousel-container {
+  position: relative;
+  width: calc(100% - 144px);
+  margin: 0 auto;
   overflow: hidden;
-  width: 100%;
 }
 
-.carousel-track {
+.carousel {
   display: flex;
-  transition: transform 0.4s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  will-change: transform;
 }
 
-.carousel-track {
+.carousel-item {
+  flex: 0 0 100%;
+  max-width: 100%;
+  flex-shrink: 0;
+  padding: 0;
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
 }
 
-.carousel-track img {
-  flex: 0 0 calc(100% / 3);
-  max-width: calc(100% / 3);
-  padding: 10px;
-  box-sizing: border-box;
-}
-
-
-@media (max-width: 768px) {
-  .carousel-track img {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-}
-
-
-.carousel button {
-  background: #000;
-  color: #fff;
-  border: none;
-  font-size: 2rem;
-  padding: 5px 15px;
-  cursor: pointer;
-}
-
-
-@media (max-width: 768px) {
-  .carousel-track img {
-    width: 100%;
-  }
-}*/
-/* Responsive *//*
-@media all and (max-width: 768px) {
- 
-    .carousel-section{
-        
-        padding: 40px 21px 64px 21px;
-        
-        
-        div{
-            align-items: center;
-            text-align: center;
-            width: 308px;
-            h2{
-                margin-bottom: 16px;
-            }
-    
-        }
-    }
-
-    .carousel-container {
-       
-        position: relative;
-        width: 308px;
-        overflow: hidden;
-        margin-bottom: 123px;
-        .carousel{
-            width: 308px;
-        }
-    }
-    .carousel-item {
-        min-width: 50%; 
-        box-sizing: border-box;
-        padding: 10px; 
-        
-    }
-    .hero-section .hero-container h2 {
-        margin-top: 10px;
-    }
-    .hero-image {
-        padding-left: 76px;
-    }
-    .hero-image img {
-        width: 231px;                   
-        height: auto;  
-        margin-top: 10px;
-    
-    }
-}*/
-/* Container du carousel */
-.carousel-container {
-  position: relative;
-  width: 100%;
-  max-width: 1200px; /* limite la largeur du carousel */
-  margin: 0 auto;
-  overflow: hidden; /* cache les items hors écran */
-}
-
-/* La "track" qui défile */
-.carousel {
-  display: flex;
-  transition: transform 0.5s ease;
-}
-
-/* Chaque item du carousel */
-.carousel-item {
-  flex: 0 0 calc(100% / 3); /* 3 images visibles desktop */
-  max-width: calc(100% / 3);
-  padding: 0 10px;
-  box-sizing: border-box;
-}
-
-/* Contenu interne de chaque item */
+/* ===========================
+   CONTENU INTERNE
+=========================== */
 .carousel-item a.lien-carousel {
   display: flex;
   flex-direction: column;
@@ -131,38 +35,35 @@
   color: inherit;
 }
 
-.carousel-item a.lien-carousel h2 {
-  font-size: 1rem;
-  margin: 0 0 10px 0;
-  text-align: center;
-}
-
-.carousel-item a.lien-carousel img {
-  max-width: 100%;
+/* ===========================
+   IMAGE
+=========================== */
+.carousel-item img {
+  width: 100%;
   height: auto;
   display: block;
-  border-radius: 8px;
+  border-radius: 12px;
+  object-fit: cover;
 }
 
-/* Boutons navigation */
+/* ===========================
+   BOUTONS DE NAVIGATION
+=========================== */
 .carousel-button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.6);
   border: none;
   padding: 10px;
   cursor: pointer;
   z-index: 10;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .carousel-button img {
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
 }
 
 .carousel-button.prev {
@@ -172,16 +73,8 @@
 .carousel-button.next {
   right: 10px;
 }
-
-/* Mobile : 1 image visible */
 @media (max-width: 768px) {
-  .carousel-item {
-    flex: 0 0 100%;
-    max-width: 100%;
-    padding: 0 5px;
-  }
-
-  .carousel-item a.lien-carousel h2 {
-    font-size: 0.9rem;
+  .carousel-container {
+    width: calc(100% - 40px);
   }
 }

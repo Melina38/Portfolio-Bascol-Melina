@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="css/accueil.css">
         <link rel="stylesheet" href="css/carousel.css">
         <script src="script.js"></script>
+
     </head>
 <body>
     <header class="header container">

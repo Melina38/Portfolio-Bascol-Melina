@@ -114,7 +114,7 @@ p{
     transform: translateY(0);
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 768px) {
     .container{
         padding: 0 27px;
     }
