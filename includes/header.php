@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="css/footer.css">
         <link rel="stylesheet" href="css/projet.css">
         <link rel="stylesheet" href="css/accueil.css">
+        <link rel="stylesheet" href="css/carousel.css">
         <script src="script.js"></script>
     </head>
 <body>

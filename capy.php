@@ -64,12 +64,22 @@
         
                     </div>
                 </div>
-            
+                
+       
+
             
         </section>
+        <section>
+            <h2 class="titre-projet">Galerie d'images</h2>
+            <?php include 'components/carousel.php'?>
+        </section>
+        
+        
+
         
         <?php include 'components/mes-projets-section.php'?>
         <?php include 'components/qui-suis-je-section.php'?>
         <?php include 'components/contact-section.php'?>
+        <script src="script.js"></script>
     </body>
 <?php include 'includes/footer.php'?>
