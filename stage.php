@@ -68,9 +68,14 @@
                     <div class="categorie-div">
                         <h3 class="sous-titre">Mes tâches</h3>
                         <h4>
-                            -Développement FullStack du site <br>
-                            -Conception de wireframe et maquette figma<br>
-                            -Communication (flyer, post réseaux sociaux, audiovisuel, article)<br>
+                            -<strong>Développement FullStack du site :</strong> <br>
+                            Quand je suis arrivée, le site était déjà en cours de développement, 
+                            il y avait les pages acheter et louer un bien, contact, actualités et notre newletter, 
+                            sous la supervision de mon maître de stage j'ai développé les autres pages disponible sur le site (vendre et faire gérer un bien, syndic, rejoindre l'équipe, nos agences et qui sommes nous?). 
+                            Pour chaque page, j'ai pris en charge la mise en forme (styles), la structure en TypeScript, ainsi que la dynamisation du contenu via Directus.  <br><br>
+                            -<strong>Rédaction de contenu pour le site web :</strong> (notamment pour la page d'accueil et la page de contact)<br>
+                            -<strong>Conception de wireframe et maquette figma :</strong> des pages que j'ai développées<br>
+                            -<strong>Communication :</strong> (flyer, post réseaux sociaux, audiovisuel, article)<br>
                         </h4>
         
                     </div>

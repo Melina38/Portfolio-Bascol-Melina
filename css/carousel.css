@@ -53,7 +53,6 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(0, 0, 0, 0.6);
   border: none;
   padding: 10px;
   cursor: pointer;
@@ -71,8 +70,13 @@
 }
 
 .carousel-button.next {
-  right: 10px;
+  right: 10px;  
 }
+
+.carousel-button.next img {
+  transform: rotate(180deg);
+}
+
 @media (max-width: 768px) {
   .carousel-container {
     width: calc(100% - 40px);
