@@ -35,7 +35,6 @@
                 <div class="image-div">
                     <img src="./img/pc_hazards.png" alt="écran de pc">
                     <div class="lien-div">
-                        <a class="bouton-lien" href="https://hazards.site/">lien vers le site web</a>
                         <a class="bouton-lien" href="https://www.instagram.com/p/DCmgTtLqiEl/">lien vers le réel instagram</a>
                     </div>
                     
@@ -65,6 +64,17 @@
         
                     </div>
                 </div>
+                <div class="apprentissages-div">
+                    <h3 class="sous-titre">Ce que j'ai appris</h3>
+                    <h4>
+                        Ce projet m'a permis de découvrir le rôle de chargée de projet, 
+                        qui consiste à coordonner les différentes étapes d'un projet, 
+                        à gérer une équipe et à assurer la communication avec le client. 
+                        J'ai appris à organiser un projet de A à Z, en définissant les objectifs, 
+                        en planifiant les tâches et en assurant le suivi de l'avancement. 
+                        J'ai également appris à travailler en équipe, en répartissant les tâches, 
+                        en assurant la communication entre les membres du groupe et surtout à gérer les discordes dans un groupe aussi nombreux. 
+                        Ce projet m'a donné une solide introduction au rôle de chargée de projet.
             
             
         </section>

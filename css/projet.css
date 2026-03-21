@@ -109,7 +109,12 @@
     flex-direction: column;
     gap: 30px;
     margin-bottom: 54px;
-    .sous-titre{
+    
+    h4{
+        line-height: 150%;
+    }
+}
+.sous-titre{
         font-size: 36px;
         font-family: 'Anton', sans-serif;
         color: #801626;
@@ -119,6 +124,11 @@
         padding: 0;
         line-height: 150%;
     }
+.apprentissages-div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 54px;
     h4{
         line-height: 150%;
     }

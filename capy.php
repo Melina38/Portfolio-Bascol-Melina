@@ -64,15 +64,22 @@
         
                     </div>
                 </div>
+                <div class="apprentissages-div">
+                    <h3 class="sous-titre">Ce que j'ai appris</h3>
+                    <h4> Ce projet est ma toute première experience en tant que développeuse de jeu vidéo avec Processing, et j'ai beaucoup appris en travaillant dessus. <br>
+                        J'ai appris à utiliser les fonctions de base de Processing pour créer des éléments graphiques et animer des objets dans un environnement de jeu. <br>
+                        J'ai également appris à gérer les entrées utilisateur pour permettre au joueur d'interagir avec le jeu. <br>
+                        Et enfin, ce projet m'a permis de m'inicier aux graphismes avec Aseprite en autonomie. <br>
                 
        
 
             
         </section>
+        <!--
         <section>
             <h2 class="titre-projet">Galerie d'images</h2>
-            <?php include 'components/carousel.php'?>
-        </section>
+            <?php #include 'components/carousel.php'?>
+        </section>-->
         
         
         

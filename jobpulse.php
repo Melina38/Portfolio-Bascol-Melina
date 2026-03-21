@@ -67,6 +67,15 @@
         
                     </div>
                 </div>
+                <div class="apprentissages-div">
+                    <h3 class="sous-titre">Ce que j'ai appris</h3>
+                    <h4> 
+                        Ce projet à été un veritable défi pour moi, car c'était ma première expérience avec Symfony, que j'ai appris en totale autonomie.
+                        J'ai appris à travailler sur un projet avec la structure de Symfony, son système de migration et de création de base de donnée.<br>
+                        J'ai également appris à créer des routes, des controllers et des templates avec Twig pour afficher les données de manière dynamique. <br>
+                        Et enfin, j'ai appris à utiliser Twig pour créer des templates et à intégrer du JavaScript dans mes pages Symfony. <br>
+                    </h4>
+                </div>
             
             
         </section>

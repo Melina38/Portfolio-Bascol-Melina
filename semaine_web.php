@@ -56,14 +56,28 @@
                         <h3 class="sous-titre">Mes tâches</h3>
                         <h4>
                             
-                            -Développement du site <br>
-                            -Réalisation de la maquette <br>
+                            -Développement du site de A à Z (statique, puis dynamique)<br>
+                            -Réalisation de la maquette mobile et desktop <br>
                             -Préparation et intervention lors de réunion client <br>
-                            -Automoatisation du site avec ACF<br>
+                            -Automatisation du site avec ACF<br>
+                            -Hébergement du site sur OVH <br>
 
                         </h4>
         
                     </div>
+                </div>
+                <div class="apprentissages-div">
+                    <h3 class="sous-titre">Ce que j'ai appris</h3>
+                    <h4>
+                        Si je ne devais retenir qu'un seul projet de ma deuxième année de BUT MMI, ce serait celui-ci. <br><br>
+                        J'ai appris énormément de choses, grâce aux développeurs professionnels qui m'ont accompagnés. 
+                        J'ai appris à utiliser WordPress et à automatiser un site avec ACF. <br>
+                        <br>
+                        Ce projet m’a également appris à travailler au sein d’une équipe différente de celles auxquelles 
+                        j’étais habituée, à communiquer avec une cliente et à suivre un projet de A à Z. 
+                        Nous avons su comprendre ses besoins et répondre à ses attentes, 
+                        ce qui a été une expérience très enrichissante sur le plan professionnel comme humain.
+                    </h4>
                 </div>
             
             

@@ -63,12 +63,28 @@
                             -Rédactions de documents professionnelles <br> (cahier de conception et cahier de spécification) <br>
                             -Organisation du planning <br>
                             -Réalisation de la maquette ainsi que l'univers graphique <br>
-                            -Programation de la partie Front  et Back du site <br>
+                            -Programation de la partie Front et Back du site <br>
 
                         </h4>
         
                     </div>
                 </div>
+                <div class="apprentissages-div">
+                    <h3 class="sous-titre">Ce que j'ai appris</h3>
+                    <h4> Ce projet est ma toute première experience en tant que Dev back-end et UX/UI Designer, et j'ai beaucoup appris en travaillant dessus. <br>
+                        J'ai mise en pratique mes connaissances théoriques de PHP, ce qui m'a permis de comprendre les bases du développement back-end. <br>
+                        J'ai également appris à gérer une base de données MySQL, ce qui m'a donné une meilleure compréhension de la façon dont les données sont stockées et récupérées. <br><br>
+
+                        En parallèle, ce projet m’a permis de découvrir le rôle d’UX/UI Designer. 
+                        J’ai travaillé sur la conception des maquettes et sur la partie graphique du site, 
+                        en réfléchissant à l’ergonomie, à la hiérarchisation de l’information et à l’expérience utilisateur. 
+                        J’ai appris à concevoir une interface claire et cohérente, tout en prenant en compte les besoins 
+                        du client et les contraintes techniques du projet. 
+                        Cette étape m’a permis de mieux comprendre l’importance du design dans l’efficacité et l’attractivité d’un site web.
+                        <br><br>
+                         En travaillant en équipe, j'ai également amélioré mes compétences en communication et en collaboration, ce qui est essentiel pour réussir dans le développement web. <br>
+                        En travaillant en équipe, j'ai également amélioré mes compétences en communication et en collaboration, ce qui est essentiel pour réussir dans le développement web. <br>
+                        Ce projet m'a donné une solide introduction au développement back-end et m'a motivé à continuer à apprendre et à développer mes compétences dans ce domaine.
             
             
         </section>

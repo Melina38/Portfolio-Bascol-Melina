@@ -43,7 +43,7 @@
                 
                 </div>
                 <div class="image-div">
-                    <img src="./img/pc_enCours.png" alt="écran d'ordinateur avec ecrit en cours">
+                    <img src="./img/pc_stage.png" alt="écran d'ordinateur avec ecrit en cours">
                     
             
                 </div>
@@ -79,6 +79,16 @@
                         </h4>
         
                     </div>
+                </div>
+                <div class="apprentissages-div">
+                    <h3 class="sous-titre">Ce que j'ai appris</h3>
+                    <h4>
+                        -Le travail en équipe : j'ai appris à collaborer efficacement avec mes collègues, à partager des idées et à résoudre des problèmes ensemble. <br>
+                        -La gestion de projet : j'ai appris à organiser mon travail, à respecter les délais et à gérer les priorités. <br>
+                        -Le développement web : j'ai approfondi mes compétences en développement web, notamment en utilisant TypeScript, Next.js, Docker et Directus. <br>
+                        -La communication : j'ai amélioré mes compétences en communication, que ce soit pour rédiger du contenu pour le site web ou pour communiquer avec mes collègues. <br>
+                        -L'adaptabilité : j'ai appris à m'adapter à un nouvel environnement de travail et à relever les défis qui se présentent.
+
                 </div>
             
             

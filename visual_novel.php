@@ -64,6 +64,26 @@
         
                     </div>
                 </div>
+                <div class="apprentissages-div">
+                    <h3 class="sous-titre">Ce que j'ai appris</h3>
+                    <h4>
+                        Ce projet de visual novel représente mon premier véritable jeu vidéo sur Unity. 
+                        Il m’a permis de découvrir concrètement les différentes étapes de la création d’un jeu, 
+                        depuis la recherche et le développement d’une idée jusqu’à sa réalisation finale. 
+                        J’ai appris à structurer un projet, à réfléchir à une narration interactive et à prendre des 
+                        décisions créatives cohérentes, en groupe.<br><br>
+
+                        Sur le plan artistique, ce projet a été l’occasion pour moi d’expérimenter une nouvelle application de dessin, 
+                        Clip Studio Paint, afin de créer les graphismes du jeu. Cette étape m’a permis d’améliorer mes compétences 
+                        en dessin numérique.<br><br>
+
+                        Enfin, j’ai découvert les bases du développement de jeu grâce à la programmation en C#. Même si cela a parfois été complexe, 
+                        j’ai appris à résoudre des problèmes, à tester mon jeu et à persévérer face aux difficultés. 
+                        Ce projet m’a ainsi donné une vision globale du travail nécessaire à la création d’un jeu vidéo et m’a beaucoup appris, 
+                        autant sur le plan technique que créatif. <br>
+
+                    </h4>
+                </div>
             
             
         </section>

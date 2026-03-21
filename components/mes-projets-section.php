@@ -40,9 +40,9 @@
                 <h4>Réalisation d'une application mobile hybride avec React</h4> 
                 <p>#Dev App <br>#React #JavaScript #CSS</p>
             </a>
-            <a href="stage.php" class="card card-8 " data-year="enCours">
+            <a href="stage.php" class="card card-8 " data-year="2025">
                 <h4>Stage de 3 mois chez GIMS Immobilier</h4> 
-                <p>#DevWeb <br>#UX/UIdesigner #Communication</p>
+                <p>#DevWeb #TypeScript #Docker #Directus <br>#UX/UIdesigner #Communication</p>
             </a>
         </div>
 

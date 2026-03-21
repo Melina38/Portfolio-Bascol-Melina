@@ -66,6 +66,15 @@
         
                     </div>
                 </div>
+                <div class="apprentissages-div">
+                    <h3 class="sous-titre">Ce que j'ai appris</h3>
+                    <h4> Ce projet est ma toute première expérience avec React, et j'ai beaucoup appris en travaillant dessus. <br>
+                        J'ai appris à utiliser les composants React pour créer une interface utilisateur dynamique et réactive. <br>
+                        J'ai également appris à gérer l'état de l'application avec les hooks React, ce qui m'a permis de créer une expérience utilisateur fluide et interactive. <br>
+                        En travaillant en équipe, j'ai également amélioré mes compétences en communication et en collaboration, ce qui est essentiel pour réussir dans le développement web. <br>
+                        Ce projet m'a donné une solide introduction à React et m'a motivé à continuer à apprendre et à développer mes compétences dans ce domaine.
+                    </h4>
+                </div>
             
             
         </section>
