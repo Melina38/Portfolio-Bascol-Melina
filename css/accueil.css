@@ -172,9 +172,19 @@
     background-size: 90%;
 }
 .card-8 {
-    background-image: url('../img/pc_stage.png');
+    background-image: url('../img/stage.png');
     background-position: center;
-    background-size: 90%;
+    background-size: contain;
+}
+.card-9 {
+    background-image: url('../img/pc_alternance.png');
+    background-position: center;
+    background-size: contain;
+}
+.card-9 {
+    background-image: url('../img/pc_enCours.png');
+    background-position: center;
+    background-size: contain;
 }
 .card::before {
     content: "";
