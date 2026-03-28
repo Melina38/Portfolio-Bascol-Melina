@@ -8,7 +8,7 @@
             </a>
         </div>
         <div class="titre-div container">
-            <h2 class="titre-projet">Réalisation d'un jeu visual novel sur Unity
+            <h2 class="titre-projet">Réalisation d'un table de jeu connectée
             </h2>
             <p>2026</p>
 
@@ -46,7 +46,7 @@
                 
                 </div>
                 <div class="image-div">
-                    <img src="./img/pc_visual.png" alt="écran de pc">
+                    <img src="./img/blender.png" alt="écran de pc">
                                       
             
                 </div>
@@ -85,6 +85,7 @@
 
                     </h4>
                 </div>
+                
             
             
         </section>

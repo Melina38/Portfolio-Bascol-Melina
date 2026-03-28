@@ -8,14 +8,14 @@
         <div class="carousel-item">
             <a class="lien-carousel" href="">
                 
-                <img src="../img/pc_capy.png" alt="symbole sexe féminin et masculin">
+                <img src="../img/image.png" alt="symbole sexe féminin et masculin">
             </a>
         </div>
         <div class="carousel-item">
-            <a class="lien-carousel" href="">
+            
                 
-                <img src="../img/pc_jobPulse.png" alt="symbole sexe féminin et masculin">
-            </a>
+                <img src="../img/figurines.png" alt="symbole sexe féminin et masculin">
+            
         </div>
         <div class="carousel-item">
             <a class="lien-carousel" href="">

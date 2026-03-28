@@ -31,6 +31,10 @@
                 <h4>Réalisation d'un site web avec Laravel</h4> 
                 <p>#Dev web <br>#Laravel #HTML #CSS #PHP</p> 
             </a>
+            <a href="table_connectee.php" class="card card-11  " data-year="2026">
+                <h4>Réalisation d'un table de jeu connectée</h4> 
+                <p>#Graphisme <br>#Arduino #Blender #Aseprite</p> 
+            </a>  
             <a href="multimedia.php" class="card card-1  " data-year="2024">
                 <h4>Création d'un site de réservation de matériels multimédia</h4> 
                 <p>#Dev web <br>#MYSQL #HTML #CSS #PHP</p> 
