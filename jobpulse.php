@@ -35,7 +35,7 @@
                 <div class="image-div">
                     <img src="./img/pc_jobPulse.png" alt="écran de pc">
                     <div class="lien-div"> 
-                        <a class="bouton-lien" href="https://jobpulse-zza0.onrender.com/">Lien vers le site</a>
+                        <a class="bouton-lien" href="https://jobpulse.tuzi.fr">Lien vers le site</a>
                         <a class="bouton-lien" href="https://www.figma.com/design/FtCm6lECBcEWQXw4ZRB6y7/booster?node-id=271-3744&t=tyjbGJAJhG2rxaFb-1">Lien maquette</a>
                     </div>
                     

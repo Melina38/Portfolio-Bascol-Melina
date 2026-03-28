@@ -38,12 +38,12 @@
                     <img src="./img/pc_multimedia.png" alt="écran de pc">
                     
                     <div class="lien-div">
-                        <a class="bouton-lien" href="http://ijtebow.cluster024.hosting.ovh.net/bascolm/index.php">lien vers le site web</a>
+                        <a class="bouton-lien" href="https://mmi-materiel.tuzi.fr">lien vers le site web</a>
                         
                         
                         <a class="bouton-lien" href="https://www.figma.com/design/834oqDbIFZcWBxR69B6dtU/Untitled?node-id=0-1&t=qJUlTpI1PQSTlwCk-1">lien maquette</a>
                     </div>
-                    <p>Utilisateur: visiteur <br> Mot de passe: v1s1teur.</p>
+                    <p>Utilisateur: visiteur <br> Mot de passe: V1s1teur!</p>
             
                 </div>
             </div>
