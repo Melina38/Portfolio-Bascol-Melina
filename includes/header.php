@@ -2,6 +2,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="index, follow">
+        <meta name="description" content="Portfolio de Bascol Mélina, développeuse Full Stack et UX/UI Designer à la recherche d'une alternance. Découvrez mes projets et compétences.">
         <title>Portfolio Bascol Mélina</title>
         <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400..700&display=swap" rel="stylesheet">

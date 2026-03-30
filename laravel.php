@@ -32,7 +32,9 @@
                 </div>
                 <div class="image-div">
                     <img src="./img/pc_laravel.png" alt="écran de pc">
-                    
+                    <div class="lien-div"> 
+                        <a class="bouton-lien" href="https://prestige-immobilier.tuzi.fr/">Lien vers le site</a>
+                    </div>
                     
             
                 </div>

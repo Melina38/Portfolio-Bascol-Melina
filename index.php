@@ -6,11 +6,16 @@
         <h1 class="slide-in-right ">MON <br>PORTFOLIO</h1>
         <div class="bouton-div slide-in-right ">
             <a class="bouton-cv" href="./img/cv_Bascol_Melina_2026.pdf" target="_blank">Mon CV</a>
-            <p>"Je suis à la recherche d'une <strong>alternance</strong> <br> en tant que <strong>Développeuse FullStack</strong> <br> et/ou <strong>UX/UI Designer</strong> !"</p>
+            <p>
+            Je m’appelle <strong>Bascol Mélina</strong>, je suis à la recherche d'une 
+            <strong>alternance</strong> en tant que 
+            <strong>Développeuse Full Stack</strong> et/ou 
+            <strong>UX/UI Designer</strong>.
+            </p>
         </div>
     </div>   
     <div class="hero-image">
-        <a href="#projet" class="scroll-link"><img src="./img/fleche-bas.svg" alt="fleche vers le bas rouge"></a>
+        <a href="#projet" class="scroll-link"><img src="./img/fleche-bas.svg" alt="Portfolio Bascol Mélina - voir mes projets"></a>
         
     </div>
     

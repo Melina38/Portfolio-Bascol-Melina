@@ -47,9 +47,7 @@
                 </div>
                 <div class="image-div">
                     <img src="./img/pc_alternance.png" alt="écran d'ordinateur avec ecrit en cours">
-                    <div class="lien-div"> 
-                        <a class="bouton-lien" href="https://www.carre-maison.com/">Lien vers le site</a>
-                    </div>
+                    
             
                 </div>
             
