@@ -8,7 +8,7 @@
                 <li><a href="#contact" class="scroll-link">Contact</a></li>
             </ul>
             <div class="bouton-footer">
-                <a href="./img/cv_Bascol_Melina.pdf" target="_blank">Mon CV</a>
+                <a href="./img/cv_Bascol_Melina_2026.pdf" target="_blank">Mon CV</a>
             </div>
         </div>
             

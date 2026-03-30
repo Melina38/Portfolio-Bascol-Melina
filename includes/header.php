@@ -25,7 +25,7 @@
             <ul>
                 <li><a href="#projet" class="scroll-link">Mes Projets</a></li>
                 <li><a href="#moi" class="scroll-link">Qui suis-je?</a></li>
-                <li><a href="./img/cv_Bascol_Melina.pdf" target="_blank">CV</a></li>
+                <li><a href="./img/cv_Bascol_Melina_2026.pdf" target="_blank">CV</a></li>
                 <li><a href="#contact" class="scroll-link">Contact</a></li>
             </ul>
         </nav>
