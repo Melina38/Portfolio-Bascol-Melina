@@ -19,7 +19,7 @@
                 <div class="categorie-div">
                     <h3 class="sous-titre">Contexte</h3>
                     <h4>
-                        Je suis actuellement en deuxième année de <strong>BUT MMI</strong> , <strong>parcours Développement Web
+                        Durant ma deuxième année de <strong>BUT MMI</strong> , <strong>parcours Développement Web
                             et Dispositifs Interactifs</strong> . <br>
                          Dans le cadre de ma formation, j'ai l'opportunité de <strong>réaliser un stage</strong> en 
                          entreprise pour mettre en <strong>pratique les compétences acquises</strong> au cours de ces deux 

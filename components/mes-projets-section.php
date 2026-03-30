@@ -10,13 +10,14 @@
             <button class="filter-btn" data-filter="enCours" onclick="filterCards('enCours')">En cours</button>
         </div>
         <div class="cards">
-            <a href="stage.php" class="card card-8 " data-year="2025">
-                <h4>Stage de 3 mois chez GIMS Immobilier</h4> 
-                <p>#DevWeb #TypeScript #Docker #Directus <br>#UX/UIdesigner #Communication</p>
-            </a>
+            
             <a href="carre-maison.php" class="card card-9 " data-year="enCours">
                 <h4>Alternance d'un an chez Carré Maison</h4> 
                 <p>#DevWeb #Shopify #Liquid #HTML&CSS <br>#UX/UIdesigner #Communication</p>
+            </a>
+            <a href="stage.php" class="card card-8 " data-year="2025">
+                <h4>Stage de 3 mois chez GIMS Immobilier</h4> 
+                <p>#DevWeb #TypeScript #Docker #Directus <br>#UX/UIdesigner #Communication</p>
             </a>
             <a href="semaine_web.php" class="card card-2  " data-year="2025">
                 <h4>Conception d'un site vitrine sous wordpress

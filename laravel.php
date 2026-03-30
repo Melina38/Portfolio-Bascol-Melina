@@ -20,18 +20,18 @@
                     <h3 class="sous-titre">Contexte</h3>
                     <h4>
                         En deux jours, un professionnel du développement web est venue nous enseigner Laravel. <br>
-                        Individuellement, on a dû créer les bases d'un site web. Les modèles, les routes, les controlleurs et templates d'un site qui regroupe des petites annonces de maisons <br>
+                        Individuellement, on a dû créer les bases d'un site web. Les modèles, les routes, les controlleurs et templates d'un site qui regroupe des petites annonces de maisons et son interface administrateur. <br>
                     </h4>
                     
                     <h3 class="sous-titre">Techno utilisées</h3>
                         <h4>
-                            Laravel, MYSQL, HTML, CSS, JavaScript et PHP
+                            Laravel, Blade, MYSQL, HTML, CSS, JavaScript et PHP
                             
                         </h4>
                 
                 </div>
                 <div class="image-div">
-                    <img src="./img/pc_enCours.png" alt="écran de pc">
+                    <img src="./img/pc_laravel.png" alt="écran de pc">
                     
                     
             
@@ -53,7 +53,7 @@
                         <h4>
                             -Configurer le projet et la base de donnée<br>
                             -Programmer les Models, Views & Controllers<br>
-                            -Faire un CRUD pour ajouter des offres<br>
+                            -Faire un CRUD pour ajouter/modifier/suppimer des offres et utilisateurs<br>
                             -Système de connexion avec authentification<br>
                             -Définir les routes
 
