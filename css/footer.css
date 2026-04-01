@@ -78,7 +78,7 @@ footer{
         
     }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     .footer-section{
         flex-direction: column;
         gap: 50px;

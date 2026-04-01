@@ -32,7 +32,7 @@ nav{
         }
     }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     nav{
         flex-direction: column;
         align-items: center;
@@ -58,7 +58,7 @@ nav{
     }
 }
 /* Media query pour afficher le header mobile sur les écrans de 768px ou moins */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     .header {
         display: none; /* Masquer le header desktop sur mobile */
     }
@@ -68,7 +68,7 @@ nav{
     
 }
 /* Media query pour afficher le header desktop sur les écrans de plus de 420px */
-@media (min-width: 769px) {
+@media (min-width: 1025px) {
     .header {
         display: flex; /* Afficher le header desktop */
     }

@@ -54,7 +54,7 @@
 .bouton-retour:hover h4 {
     transform: translateX(-5px); /* Déplace l'image et le texte vers la gauche de 20px */
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     .bouton-retour{
         
         padding: 12px 15px;
@@ -151,7 +151,7 @@
 .projet-section{
     margin-bottom: 108px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1440px) {
     .projet-section{
         margin-bottom: 50px;
     }

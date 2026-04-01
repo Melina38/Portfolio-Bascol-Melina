@@ -28,9 +28,9 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    h1{
-        width: 50%;
-    }
+    gap: 10px;
+    justify-content: space-between;
+    
     div{
         display: flex;
         flex-direction: column;
@@ -39,6 +39,22 @@
         
     }
 }
+@media only screen and (min-width: 2000px) {
+    h1{
+        font-size: 15rem;
+    }
+    .buttons-filtre{
+        margin-bottom: 50px !important;
+    }
+
+}
+@media only screen and (max-width: 1024px) {
+    h1{
+        font-size: 8rem;
+    }
+
+}
+
 .bouton-div{
     display: flex;
     flex-direction: column;
@@ -51,7 +67,12 @@
 .actuellement-section{
     padding-bottom: 108px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 720px) {
+    h1{
+            font-size: 3.5rem;
+        }
+}
+@media only screen and (max-width: 1024px) {
     .hero-section{
         
         padding-top: 42px;
@@ -71,11 +92,12 @@
         gap: 30px;
         
         
+        
     }
     .bouton-cv{
         padding: 15px 42px;
         text-align: center;
-        font-size: 32px;
+        font-size: 24px;
     }
     .bouton-div{
         display: flex;
@@ -140,6 +162,7 @@
         transition: opacity 0.3s; /* Transition pour l'opacité */
     }
 }
+
 .card-1 {
     background-image: url('../img/multimedia.jpg');
 }
@@ -223,6 +246,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 
@@ -251,7 +275,7 @@
     
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     .cards {
         padding: 0 10px;
     }
